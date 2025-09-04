@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Superior</title>
+    <style>
+        /* Reset e fonte padrão */
+        * {
+            font-family: Arial, sans-serif;  /* Tipo de fonte */
+            margin: 0;                       /* Remove margens */
+            padding: 0;                      /* Remove espaçamentos internos */
+        }
+
+        /* Estilo do menu de navegação */
+        nav {
+            background-color: #333;          /* Cor de fundo do menu */
+            color: white;                    /* Cor do texto */
+            width: 100%;                     /* Ocupa toda a largura */
+            height: 55px;                    /* Altura do menu */
+            position: fixed;                 /* Fixa o menu no topo */
+            top: 0;                          /* Alinha ao topo */
+            left: 0;                         /* Alinha à esquerda */
+            display: flex;                   /* Layout flexível */
+            justify-content: space-around;   /* Espaço igual entre os itens */
+            align-items: center;            /* Alinha verticalmente ao centro */
+        }
+
+        /* Lista de navegação */
+        nav ul {
+            list-style: none;                /* Remove marcadores */
+            display: flex;                   /* Alinha os itens na horizontal */
+        }
+
+        /* Itens da lista */
+        nav li {
+            padding: 15px;                   /* Espaçamento interno */
+            text-align: center;              /* Centraliza o texto */
+        }
+
+        /* Efeito hover */
+        nav li:hover {
+            background-color: #575757;       /* Cor ao passar o mouse */
+        }
+
+        /* Links */
+        nav a {
+            color: white;                    /* Cor do link */
+            text-decoration: none;           /* Remove sublinhado */
+        }
+
+        /* Conteúdo da página */
+        main {
+            padding: 20px;                   /* Espaçamento interno */
+            margin-top: 55px;                /* Empurra o conteúdo para baixo */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu Superior -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Serviços</a></li>
+            <li><a href="#servicos">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo da Página -->
+    <main>
+        <h1>Bem-vindo ao nosso site!</h1>
+        <p>Aqui você encontra informações sobre nossos serviços.</p>
+    </main>
+
+</body>
+</html>
